@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzaifa Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./Images/Browser-logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="overflow-hidden w-screen bg-black">
+        <div class="w-full overflow-hidden">
+            <div class="flex justify-between items-center px-10 py-15 w-screen bg-black" id="nav-bar">
+                <span id="logo"><img src="./Images/Logo.png" alt="logo" class="max-h-10 max-w-200"></span>
+                <div id="intro-sec">
+                    <ul id="nav-bar-items" class="list-none flex max-w-full my-5">
+                        <li
+                            class="nav-bar-item mr-20 text-lg font-bold text-white transition-colors duration-400 ease-in-out cursor-pointer">
+                            <a href="#color:#fd4312;">Intro</a></li>
+                        <li
+                            class="nav-bar-item mr-20 text-lg font-bold text-white transition-colors duration-400 ease-in-out cursor-pointer">
+                            <a href="#about-sec">About</a></li>
+                        <li
+                            class="nav-bar-item mr-20 text-lg font-bold text-white transition-colors duration-400 ease-in-out cursor-pointer">
+                            <a href="#skill-sec">Skills</a></li>
+                        <li
+                            class="nav-bar-item mr-20 text-lg font-bold text-white transition-colors duration-400 ease-in-out cursor-pointer">
+                            <a href="#portfolio-sec">Portfolio</a></li>
+                        <li
+                            class="nav-bar-item mr-20 text-lg font-bold text-white transition-colors duration-400 ease-in-out cursor-pointer">
+                            <a href="#contact">Contact</a></li>
+                        </ul>
+                </div>
+
+                <a id="nav-bar-icon" onclick="toggleNavBar()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div id="main-hero" class="w-full bg-black pb-14">
+                <div id="hero-container" class="p-10 flex justify-around items-center">
+                    <div class="hero-left" class="mr-0">
+                        <h4 class="text-white font-bold text-3xl">Hello, I'm</h4>
+
+                        <div class="hero-name my-7">
+                            <h1 class="text-yellow-400 font-bold text-7xl">Muhammad</h1>
+                            <h1 class="name font-bold text-7xl">Huzaifa</h1>
+                        </div>
+
+                        <p class="text-gray-400 text-2xl">
+                            A passionate <span class="text-gray-200 font-bold">Web Developer</span> from <span
+                                class="text-gray-200 font-bold">Government College University!!
+                            </span>
+                        </p>
+
+                        <div class="contact mt-16">
+                            <button
+                                class="px-7 py-3 text-white border-none cursor-pointer text-2xl font-bold rounded-md mr-12 hover:transition-colors duration-300 ease-in-out"> <a href="#contact">Contact Me</a>
+                            </button>
+                            <a class="social-media-icons no-underline inline-block mr-6 transition-colors duration-300 ease-in-out text-3xl hover:duration-300 ease-in-out"
+                                href="https://www.linkedin.com/in/mhuzaifa440" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a class="social-media-icons no-underline inline-block mr-6 transition-colors duration-300 ease-in-out text-3xl hover:duration-300 ease-in-out"
+                                href="https://github.com/Huzaifa950" target="_blank"><i
+                                    class="fa-brands fa-github"></i></i></a>
+                            <a class="social-media-icons no-underline inline-block mr-6 transition-colors duration-300 ease-in-out text-3xl hover:duration-300 ease-in-out"
+                                href="https://www.instagram.com/m.huzaifa500/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a class="social-media-icons no-underline inline-block transition-colors duration-300 ease-in-out text-3xl hover:duration-300 ease-in-out"
+                                href="https://www.facebook.com/huzaifa.mansoor.12" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="hero-right h-96">
+                        <img class="max-h-full max-w-full rounded-2xl transform scale-125"
+                            src="./Images/huzaifa-removebg-preview.png" alt="Profile_Pic">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about bg-gray-900 py-14">
+                <div class="about-body">
+                    <h2 class="text-center text-3xl font-bold text-white text-center break-words">WELCOME TO MY WORLD
+                    </h2>
+                    <p class="text-center text-xl text-gray-400 font-medium text-center">
+                        I am a daring young tech enthusiast eager to venture into the
+                        realm of Web Development
+                    </p>
+                </div>
+
+                <div class="mid flex flex-wrap text-left px-10 mt-10 justify-between">
+                    <div class="main-card-container mr-4 relative rounded-2xl bg-black bg-opacity-95 z-10 break-words">
+                        <div style="background-color: rgba(46, 45, 45, 0.979);"
+                            class="creativity mid-card rounded-xl p-10 h-full ">
+                            <i class="fa-solid fa-biohazard" style="font-size: xx-large; color: #fdb63c"></i>
+                            <h2 class="text-white text-3xl font-bold">Creativity</h2>
+                            <p class="text-white text-lg font-medium">
+                                Creativity is the cognitive skill of generating original
+                                ideas, concepts, and solutions through imaginative thinking,
+                                problem-solving, and seeing connections between disparate
+                                elements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main-card-container mr-4 relative rounded-2xl bg-black bg-opacity-95 z-10 break-words">
+                        <div style="background-color: rgba(46, 45, 45, 0.979);"
+                            class="dedication rounded-xl mid-card p-10 h-full ">
+                            <i class="fa-solid fa-gem" style="font-size: xx-large; color: #fdb63c"></i>
+                            <h2 class="text-white text-3xl font-bold">Dedication</h2>
+                            <p class="text-white text-lg font-medium">
+                                Dedication is the unwavering commitment to achieving
+                                excellence and surpassing goals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main-card-container relative rounded-2xl bg-black bg-opacity-95 z-10 break-words">
+                        <div style="background-color: rgba(46, 45, 45, 0.979);"
+                            class="hardwork rounded-xl mid-card p-10 h-full ">
+                            <i class="fa-regular fa-snowflake" style="font-size: xx-large; color: #fdb63c"></i>
+                            <h2 class="text-white text-3xl font-bold">Hard Work</h2>
+                            <p class="text-white text-lg font-medium">
+                                Hard work is the relentless pursuit of excellence through
+                                consistent effort and determination. Persistent effort &
+                                Diligence define the skill of hard work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about-sec" class="about-main bg-gray-900">
+                <div class="about-container px-14 py-20 flex flex-wrap flex-row items-center">
+                    <div class="about-image mr-8">
+                        <img class="max-w-full max-h-full" src="./Images/About.jpg" alt="about-image" >
+                    </div>
+
+                    <div class="about-text">
+                        <h2 class="about-me font-extrabold text-lg">ABOUT ME</h2>
+                        <h1 class="text-white text-5xl font-bold mb-5">Enthusiast Bachelor Student GCU</h1>
+                        <p class="text-gray-400 mb-5">This is <i>M.Huzaifa</i>, currently pursuing a Bachelor's degree in Computer Science at <b>Government College University, Lahore</b>. My venture into the realm of Computer Science has been quite intriguing. While the initial stages presented numerous challenges, my adaptable nature gradually assimilated me into this field. Now, I find myself thriving in the domain of web development, driven by a steadfast determination to achieve my future aspirations.</p>
+                        <div class="about-details mb-5 flex">
+                            <div class="about-detail-left mr-5" style="width: calc(50% - 10px);">
+                                <div class="about-detail-text mb-4">
+                                    <h2 class="text-white">Name</h2>
+                                    <p class="text-gray-400">Muhammad Huzaifa</p>
+                                </div>
+                                <div class="about-detail-text about-detail-email mb-4 break-words">
+                                    <h2 class="text-white">Email</h2>
+                                    <p class="text-gray-400">huzaifa12345612@gmail.com</p>
+                                </div>
+                                <div class="about-detail-text mb-4">
+                                    <h2 class="text-white">Phone</h2>
+                                    <p class="text-gray-400">+92 322 3174540</p>
+                                </div>
+                            </div>
+
+                            <div class="about-detail-right" style="width: calc(50% - 10px);">
+                                <div class="about-detail-text mb-4">
+                                    <h2 class="text-white">Age</h2>
+                                    <p class="text-gray-400">22 Years</p>
+                                </div>
+                                <div class="about-detail-text mb-4">
+                                    <h2 class="text-white">Education</h2>
+                                    <p class="text-gray-400">Bachelors in CS</p>
+                                </div>
+                                <div class="about-detail-text mb-4">
+                                    <h2 class="text-white">Freelance</h2>
+                                    <p class="text-gray-400">Available</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button
+                            class="about-detail-btn text-white px-4 py-2 rounded-md border-none uppercase font-semibold text-lg cursor-pointer transition-colors duration-300 ease-in-out hover:transition-colors">
+                            <a href="https://drive.google.com/file/d/1VEnFJn8k-8yU0Mxs1aN5eVUS7k-Sx7EA/view?usp=sharing" target="_blank">Download cv</a>
+                            <!-- <a href="https://drive.google.com/file/d/1Yhu52qDGRgB7Y9d-cY3AU5b8Zs4pwJkz/view?usp=drive_link" target="_blank">Download cv</a> -->
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skill-sec" class="skills-section bg-gray-900">
+                <div class="skills-container">
+                    <div id="my-skills">
+                        <div class="skills-left">
+                            <h2>My Skills</h2>
+                            <h1>I'm great in what I do and I'm loving it</h1>
+                            <p>As a Computer Science student, it's imperative to continuously apply programming
+                                solutions to stay current in the ever-evolving market. I believe my grasp of programming
+                                concepts is robust enough to compete on a global scale. Additionally, I make it a point
+                                to personally construct projects from the ground up to ensure my proficiency in
+                                programming remains sharp and precise.</p>
+                        </div>
+
+                        <div class="container1" id="Skills">
+                            <h1 class="heading1"></h1>
+                            <div class="Technical-bars">
+                                <div class="bar"><i class="fa-brands fa-html5 fa-beat" style="color: #c24908;"></i>
+                                    <div class="info">
+                                        <span>HTML</span>
+                                    </div>
+                                    <div class="progress-line html">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar"><i class="fa-brands fa-css3-alt fa-beat" style="color: #110edf;"></i>
+                                    <div class="info">
+                                        <span>CSS</span>
+                                    </div>
+                                    <div class="progress-line css">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar"><i class="fa-brands fa-js fa-beat" style="color: #d69f06;"></i>
+                                    <div class="info">
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <div class="progress-line js">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar"><i class="fa-brands fa-node-js fa-beat" style="color: #2a8110;"></i>
+                                    <div class="info">
+                                        <span>Node JS</span>
+                                    </div>
+                                    <div class="progress-line nodejs">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="portfolio-sec" class="portfolio-section bg-gray-900">
+                <div class="portfolio-container">
+                    <div class="portfolio">
+                        <h2>Portfolio</h2>
+                        <p>Here is a selection of few of my projects & certifications that demonstrate my proficiency in the field of web
+                            development. I consistently challenge myself to strive for excellence, and these projects
+                            represent the early stages of my craftsmanship. I am confident in my ability to further
+                            refine and enhance them to make them even more compelling and optimized.</p>
+
+                        <div class="first-three">
+                            <div class="fir-project">
+                                <h3> Landing Page</h3>
+                                <video src="./Portfolio Demos/Portfolio_Landscape.mp4" controls></video>
+                            </div>
+                            <div class="sec-project">
+                                <h3>Personal Portfolio</h3>
+                                <video src="./Portfolio Demos/Portfolio_Portfolio.mp4" controls></video>
+                            </div>
+                            <div class="thir-project">
+                                <h3>Temperature Converter</h3>
+                                <video src="./Portfolio Demos/Portfolio_Temperature.mp4" controls></video>
+                            </div>
+                        </div>
+                        <div class="certificate">
+                            <div class="certificate-item">
+                                <img src="./Images/ProblemSolving (Intermediate)_HackerRank.png" alt="Error">
+                                <div class="certificate-content">
+                                    <h1>Principles of UI/UX Design</h1>
+                                    <p>This course give me an insight into how to build a interactive user interface that a customer would like.</p>
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="./Images/Advance Networking.jpg" alt="Error">
+                                <div class="certificate-content">
+                                    <h1>Advanced React</h1>
+                                    <p>This course give me an insight into how to build a interactive user interface that a customer would like.</p>
+                                </div>
+                            </div>
+                            <div class="certificate-item">
+                                <img src="./Images/JavaScript (Intermediate) _ HackerRank.png" alt="Error">
+                                <div class="certificate-content">
+                                    <h1>HTML and CSS in depth</h1>
+                                    <p>This course give me an insight into how to build a interactive user interface that a customer would like.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="footer-section bg-black">
+                <div class="footer-container">
+                    <div class="footer">
+                        <div class="footer-image">
+                            <img src="./Images/Logo.png" alt="LOGO" width="15%">
+                        </div>
+
+                        <div>
+                            <p>If you're looking for a developer who can create tailored web pages for you, you've landed on the right spot. Feel free to get in touch with me, and I'll be happy to elevate your project to the next level.</p>
+                        </div>
+
+                        <div class="contact-footer">
+                            <a href="www.linkedin.com/in/mhuzaifa440" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in fa-beat-fade"></i></a>
+                            <a href="https://github.com/Huzaifa950" target="_blank"><i
+                                    class="fa-brands fa-github fa-beat-fade"></i></i></a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-regular fa-envelope fa-beat-fade"></i></a>        
+                            <a href="https://www.instagram.com/m.huzaifa500/" target="_blank"><i
+                                    class="fa-brands fa-instagram fa-beat-fade"></i></a>
+                            <a href="https://www.facebook.com/huzaifa.mansoor.12" target="_blank"><i
+                                    class="fa-brands fa-facebook-f fa-beat-fade"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="foot">
+                        <p>All Rights Reserved &copy 2023 Portfolio</p>
+
+                        <div class="terms-condition">
+                            <p>Terms & Condition</p>
+                            <p>Privacy Policy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
