@@ -230,11 +230,15 @@
 }
 
 .progress-line.js span {
-    width: 78%;
+    width: 85%;
+}
+
+.progress-line.react span{
+    width: 70%;
 }
 
 .progress-line.nodejs span {
-    width: 40%;
+    width: 33%;
 }
 
 .portfolio-section {
